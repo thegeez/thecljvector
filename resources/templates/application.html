@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>The CLJ Vector</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbar navbar-static-top">
+        <div class="container">
+          <span>
+            <a href="/" class="navbar-brand">The CLJ Vector</a>
+          </span>
+          <ul class="nav navbar-nav">
+            <li><a href="" id="menu-home">Posts</a></li>
+            <li><a href="" id="menu-add-link">Add a post</a></li>
+          </ul>
+          <ul id="login-box" class="nav navbar-nav pull-right">
+            <li class="dropdown">
+              <a id="name" href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Logged in user's name
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a id="user" href="/">User page</a></li>
+                <li>
+                  <form id="logout" action="" method="POST">
+                    <button id="logout" href="/" class="btn btn-link">Log out</button>
+                  </form>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div id="flash-error" class="alert alert-danger">
+          Flash error
+        </div>
+        <div id="flash-info" class="alert alert-info">
+          Flash info
+        </div>
+        <div id="menubar">
+        </div>
+        <!-- Content -->
+        <div id="content">
+        </div>
+        <!-- END Content -->
+      </div><!-- /.container -->
+    </div><!-- ./wrapper -->
+    <footer>
+      <div class="container">
+        <hr>
+        <ul>
+          <li><a href="http://thegeez.net">thegeez.net</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+.breadcrumb li:last-of-type a {
+  color: #777;
+}
+
+#logout .btn {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+form.link {
+    display: inline;
+}
+form.link a.btn {
+    margin-left: 4px;
+}
+
+.signup-right-border {
+    border-right: 2px solid #f86005;
+}
+.highlight {
+    background-color: #DEE0DD;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 4px solid #f86005;
+}
+.navbar a {
+    color: black;
+}
+.navbar a.navbar-brand {
+    padding-left: 55px; /* align with ul in main body */
+}
+div.alert {
+    margin-left: 40px;
+}
+ul {
+    list-style-type: none;
+}
+div.text {
+    margin-left: 40px;
+}
+div#root-comment {
+    margin-left: 40px
+}
