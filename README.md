@@ -2,9 +2,9 @@
 
 ## Screenshots
 
-[Main screen](/resources/screenshot/cljvector_index.png "Main Screen")
-[Post](/resources/screenshot/cljvector_post.png "Post Screen")
-[Signup and Login](/resources/screenshot/cljvector_signup_login.png "Signup and Login")
+![Main screen](/resources/screenshot/cljvector_index.png "Main Screen")
+![Post](/resources/screenshot/cljvector_post.png "Post Screen")
+![Signup and Login](/resources/screenshot/cljvector_signup_login.png "Signup and Login")
 
 
 
